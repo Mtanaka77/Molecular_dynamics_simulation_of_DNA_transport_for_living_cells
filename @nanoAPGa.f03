@@ -95,7 +95,7 @@
 !*  "implicit none" is recommended for minimizing typoerrors.    *
 !*                                                               *
 !*  Compilation by Linux (choose -O0, -O1,...):                  *
-!*  % mpif90 -mcmodel=medium -fpic -o a.out @nanoporAPG.f03 \    *
+!*  % mpif90 -O2 -mcmodel=medium -fpic -o a.out @nanoporAPG.f03 \*
 !*    -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log       *
 !*                                                               *
 !*  Check the configuration file and execute by:                 *
