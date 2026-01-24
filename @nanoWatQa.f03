@@ -92,7 +92,7 @@
 !*  "implicit none" is recommended for minimizing typoerrors.    *
 !*                                                               *
 !*  Compilation by Linux, execution:                             *
-!*  % mpif90 -mcmodel=medium -fpic -o a.out @nanoporWatP.f03 \   *
+!*  % mpif90 -O2 -mcmodel=medium -fpic -o a.out @nanoporWatP.f03 \*
 !*    -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log       *
 !*  % mpiexec -n 6 a.out &                                       *
 !*                                                               *
