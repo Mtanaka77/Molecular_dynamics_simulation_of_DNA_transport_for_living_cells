@@ -15,6 +15,7 @@
 !*  Copyright(C) 2006-2025. All rights reserved.                   *
 !*                                                                 *
 !*-----------------------------------------------------------------*
+!*$ mpif90 -mcmodel=medium -fPIC -O2 -o a.out @md3-para7.f03       *
 !* For one cpu execution, % mpiexec -n 1 a.out &  (very slow !)    *
 !*-----------------------------------------------------------------*  
 !
