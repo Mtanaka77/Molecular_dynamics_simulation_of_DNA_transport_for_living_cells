@@ -49,7 +49,7 @@
 !*  Also, "use, intrinsic :: iso_c_binding"                         *
 !*  The @ character is not permitted in the Intel (LX) system.      *
 !*                                                                  *
-!*  mpif90 -mcmodel=medium -fPIC -o a.out @chginv3.f03 -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log *
+!*$ mpif90 -mcmodel=medium -fPIC -O2 -o a.out @chginv3.f03 -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log *
 !********************************************************************
 !*-- 12/23/1999 --------------------------------------- 7/07/2001 --*
 !
