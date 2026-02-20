@@ -96,9 +96,7 @@
 !*                                                               *
 !*  Compilation by Linux (choose -O0, -O1,...):                  *
 !*  % mpif90 -mcmodel=medium -fpic -O2 -o a.out @nanoporAPGa.f03 -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log       *
-!*                                                               *
-!*  Check the configuration file and execute by:                 *
-!*  % mpiexec -n 6 a.out &                                       *
+!*  % mpiexec -n <proc> a.out &  <proc>=6 or more                                       *
 !*                                                               *
 !*****************************************************************
 !
