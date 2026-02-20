@@ -93,7 +93,7 @@
 !*                                                               *
 !*  Compilation by Linux, execution:                             *
 !*  % mpif90 -mcmodel=medium -fpic -O2 -o a.out @nanoWatQa.f03 -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log       *
-!*  % mpiexec -n 6 a.out &                                       *
+!*  % mpiexec -n <proc> a.out &  <proc>=6 or more                                       *
 !*                                                               *
 !*  First version.  2004/10/25                                   *
 !*  Second version; 2006/12/18 (Complete F90)                    *
