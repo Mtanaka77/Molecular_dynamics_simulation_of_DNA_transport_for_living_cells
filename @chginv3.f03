@@ -50,6 +50,7 @@
 !*  The @ character is not permitted in the Intel (LX) system.      *
 !*                                                                  *
 !*$ mpif90 -mcmodel=medium -fPIC -O2 -o a.out @chginv3.f03 -I/opt/fftw3/include -L/opt/fftw3/lib -lfftw3 &> log *
+!*$ mpiexec -n <proc> a.out &  <proc>=6 or more
 !********************************************************************
 !*-- 12/23/1999 --------------------------------------- 7/07/2001 --*
 !
